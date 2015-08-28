@@ -1,17 +1,9 @@
-/*  Some ideas for fixing and expanding:
-
-What if a user makes an inappropriate choice like 'dog'? How can we extend the function to handle that?
-
-What if players in the game could also choose Rope in this game?
-
-In this version, if both players make the same choice, the game returns a tie. What if the game didn't end there but instead asked both players for new choices? */
-
 // Defining initial variables.
 var userChoice = prompt("Do you choose rock, paper or scissors?");
 
 var computerChoice = Math.random();
 
-// Outlining the logic for the Computer opponent's potential choices.
+// Outlining the logic for the computer opponent's potential choices.
 if (computerChoice < 0.34) {
 	computerChoice = "rock";
 } else if (computerChoice <= 0.67) {
